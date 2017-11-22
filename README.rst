@@ -11,6 +11,10 @@ Current limitations:
 
 * Currently only supports printing systems with a *local* CUPS deamon (Linux/macOS)
 
+* Currently uses a late-ack method: The tool polls a PDF to print, prints it, waits for the print job to complete,
+  then confirms the printing to the server and then starts polling the next PDF. This is obviously slower and might
+  be parallelized, but this way it is kept simple and robust to ensure an easily recoverable state after printer errors.
+
 Installation and usage
 ----------------------
 
