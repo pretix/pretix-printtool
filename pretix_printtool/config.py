@@ -15,7 +15,7 @@ def validate_config(config):
     if config['printtool']['type'] == 'cups':
         validate_cups_config(config)
     else:
-        click.echo(click.style('Invalid config file: Unknown type %s' % config['banktool']['type'], fg='red'))
+        click.echo(click.style('Invalid config file: Unknown type %s' % config['printtool']['type'], fg='red'))
         sys.exit(1)
 
 

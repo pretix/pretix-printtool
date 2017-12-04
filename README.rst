@@ -35,7 +35,7 @@ the virtual environment::
 
     (env)$ pip3 install -U pip setuptools
 
-Now you can install the bank tool::
+Now you can install the print tool::
 
     (env)$ pip3 install pretix-printtool
 
@@ -53,7 +53,7 @@ for all further actions. The command::
 
 will test the connection to pretix, but will not perform any actions. To actually start printing, use::
 
-    (env)$ pretix-banktool print configfile-path.cfg
+    (env)$ pretix-printtool print configfile-path.cfg
 
 
 Contributing
