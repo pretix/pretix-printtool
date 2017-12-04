@@ -10,7 +10,7 @@ except:
 
 setup(
     name='pretix-printtool',
-    version='0.1.0',
+    version='0.1.1',
     description='Command-line client for pretix that allows to print out tickets for shippinh',
     long_description=long_description,
     url='https://github.com/pretix/pretix-printtool',
